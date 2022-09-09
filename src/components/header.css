@@ -1,0 +1,28 @@
+header{
+  display: flex;
+  justify-content: space-around;
+  background-color: #282c34;
+  height: 20%;
+}
+header img {
+  height: 18vmin;
+  pointer-events: none;
+}
+
+.NavBar ul{
+  display: flex;
+}
+.NavBar li{
+  list-style: none;
+  display: flex;  
+}
+.NavBar li a{
+  padding: 2em;
+  text-decoration: none;
+  color:  #61dafb;
+}
+
+.NavBar li a:hover{
+  text-decoration: underline;
+  color:  #fbfeff;
+}
