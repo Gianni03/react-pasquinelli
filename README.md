@@ -1,3 +1,11 @@
+# Proyecto del curso de React en Coderhouse
+
+Crear un e-commerce
+utilizando react-create-app, conociendo el uso de archivos.jsx, componentes.
+para los estilos utilicé materia-ui
+
+##
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +76,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-pasquinelli
+
