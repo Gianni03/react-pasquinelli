@@ -8,6 +8,10 @@ header img {
   height: 18vmin;
   pointer-events: none;
 }
+.NavBar{
+  display: flex;
+  align-items: center;
+}
 
 .NavBar ul{
   display: flex;
@@ -26,3 +30,7 @@ header img {
   text-decoration: underline;
   color:  #fbfeff;
 }
+
+/* .navbar--icon .NavBar--icon__cart{
+  color:  #61dafb ; 
+} */
