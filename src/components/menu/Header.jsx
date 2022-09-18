@@ -8,7 +8,6 @@ function Header(){
     <header className="Header">
     <img src={logo} className="App-logo" alt="logo" />
     <NavBar/>
-    
     </header>
 
   );
