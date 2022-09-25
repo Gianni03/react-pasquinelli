@@ -3,7 +3,7 @@ import Item from './Item';
 
 function Itemlist(props) {
   return (
-    <div>
+    <div className='itemList__container'>
       {props.data.map((item) => {
           return (
             <Item

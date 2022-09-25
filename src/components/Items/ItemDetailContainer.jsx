@@ -1,22 +1,27 @@
 import React, { useState, useEffect } from "react";
-import getItem from "../services/mockAPI";
 import ItemDetail from "./ItemDetail";
+import { getItem } from "../services/mockAPI"
+import './ItemDetail.css'
+
+
 
 function ItemDetailContainer() {
-  let [data, setData] = useState({});
+  let [item, setItem] = useState({});
 
   useEffect(() => {
-    getItem().then((respuestaDatos) => setData(respuestaDatos));
+    getItem().then((respuestaDatos) => setItem(respuestaDatos));
   }, []);
 
+  
   return (
     <div>
       <div className="detail__container">
-        <ItemDetail
-          price={data.price}
-          title={data.title}
-          img={data.img}
-          detail={data.detail}
+        <ItemDetail 
+              key={item.id}
+              price={item.price}
+              title={item.title}
+              img={item.img}
+              detail={item.detail}
         />
       </div>
     </div>

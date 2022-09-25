@@ -42,8 +42,8 @@ export default function getItems() {
   });
 }
 export function getItem() {
-  return new Promise((resolve, reject) => {
 
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(data[2]);
     }, 1000);

@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemCount from './ItemCount';
+import ItemCount from '../ItemCount/ItemCount';
 
 function Item(props) {
 
@@ -7,13 +7,13 @@ function Item(props) {
 
   return (
     <div className='item'>
-      <div className='item--title'>
+      <div className='item__title'>
         <h3>{title}</h3>
       </div>
-      <div className='item--img'>
+      <div className='item__img'>
         <img src={img} alt="pua ?" />
       </div>
-      <div className="item--details">
+      <div className="item__details">
         <h4>$ {price}</h4>
         <p>{detail}</p>
       </div>
