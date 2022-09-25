@@ -1,7 +1,8 @@
 import './App.css';
-import '../src/components/menu/Header'
-import Header from '../src/components/menu/Header';
-import ItemListContainer from './components/Contenido/ItemListContainer';
+import './components/header/Header'
+import Header from './components/header/Header';
+//import ItemListContainer from './components/Items/ItemListContainer';
+import ItemDetailContainer from './components/Items/ItemDetailContainer';
 
 // import {browseRoueter, Routes, Route, link } from "react-router-dom";
 
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
 
       <Header/>
-      <ItemListContainer greeting="Mi tienda con REACT"/>
+      {/* <ItemListContainer greeting="Mi tienda con REACT"/> */}
+      <ItemDetailContainer />
     </div>
   );
 }
