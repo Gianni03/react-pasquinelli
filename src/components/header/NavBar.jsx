@@ -1,12 +1,16 @@
 import CartWidget from './CartWidget';
+import { Link } from "react-router-dom";
 
 function NavBar(){
 return(
 <nav className="NavBar">
   <ul className="menu">
-    <li><a href="home" alt="menu">Home</a></li>
-    <li><a href="http://#" alt="menu">Productos</a></li>
-    <li><a href="http://#" alt="menu">Contacto</a></li>
+    <li><Link to="/home" alt="menu">Home</Link></li>
+    <li><Link to="/categoria/a" alt="menu">cat a</Link></li>
+    <li><Link to="/categoria/b" alt="menu">cat b</Link></li>
+    <li><Link to="/categoria/c" alt="menu">cat c</Link></li>
+    <li><Link to="/categoria/d" alt="menu">cat d</Link></li>
+    
   </ul>
   <CartWidget/>
   
@@ -17,11 +21,6 @@ return(
 
 export default NavBar;
 
-// hacer un CartWidget y ItemListContainer
-// crear estos dos componentes y mostrarlo
-// el car es el icono dentro del nav
-// componente con el listado de productos al que solo le vamos a pasar la propiedad greeting
-// <ItemListContainer greeteng="Mi Tienda React" /> esto en app
-//<div><h1>{greeting}</h1> </div>
+
 
 

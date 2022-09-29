@@ -2,15 +2,21 @@ import React, { useState, useEffect } from "react";
 import ItemDetail from "./ItemDetail";
 import { getItem } from "../services/mockAPI"
 import './ItemDetail.css'
+import { useParams } from 'react-router-dom';
 
 
 
 function ItemDetailContainer() {
   let [item, setItem] = useState({});
 
+  console.log("params", useParams())
+
+
+ const { itemId } = useParams(); 
+
   useEffect(() => {
-    getItem().then((respuestaDatos) => setItem(respuestaDatos));
-  }, []);
+    getItem(itemId).then((respuestaDatos) => setItem(respuestaDatos));
+  }, [itemId]);
 
   
   return (
@@ -18,6 +24,7 @@ function ItemDetailContainer() {
       <div className="detail__container">
         <ItemDetail 
               key={item.id}
+              id={item.id}
               price={item.price}
               title={item.title}
               img={item.img}
