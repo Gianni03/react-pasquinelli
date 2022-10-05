@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useState }from 'react'
 import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount';
+import { Link } from 'react-router-dom';
+import Cart from '../cart/Cart'
 
 
 function ItemDetail(props) {
- 
+
   let { price, title , img , detail } = props;
+
+  const [isInCart, setIsInCart] = useState(false)
+
+  function handleOnAddToCart(contador){
+    console.log(`agregaste ${contador} unidades al carrito`);
+    setIsInCart(true);
+    // 
+  }
   
   return (
     <div className='item'>
@@ -16,8 +26,9 @@ function ItemDetail(props) {
       </div>
       <div className='item__img--detail'>
         <img src={img} alt={title} />
-        <ItemCount/>
-        <p>Comprar</p>
+
+      { !isInCart ? <ItemCount onAddToCart={handleOnAddToCart}/> : <Link to={'/Cart'}>Finalizar</Link> }
+
       </div>
       <div className="item__details--detail">
         <p>{detail}</p>
