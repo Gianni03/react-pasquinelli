@@ -1,7 +1,12 @@
 .ItemCount{
   display: flex;
   justify-content: center;
+  flex-direction: column;
 
+
+}
+.ItemCount__cantidad{
+  display: flex;
 }
 .ItemCount--contador{
   margin:  0 .5rem;
@@ -10,4 +15,7 @@
 .ItemCount--cantidad{
   font-size: 2rem;
   padding: 5px;
+}
+.ItemCount__comprar{
+  text-align: center;
 }

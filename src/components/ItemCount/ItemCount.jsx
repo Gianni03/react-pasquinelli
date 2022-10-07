@@ -33,7 +33,7 @@ function ItemCount({ onAddToCart }) {
 
   return (
     <div className="ItemCount">
-      <div>
+      <div className="ItemCount__cantidad">
         <IconButton
           color="primary"
           className="ItemCount--contador"
@@ -53,7 +53,7 @@ function ItemCount({ onAddToCart }) {
         </IconButton>
       </div>
 
-      <div>
+      <div className="ItemCount__comprar">
         <Button onClick={ () => onAddToCart(contador)}>Comprar</Button>
       </div>
     </div>
