@@ -1,79 +1,78 @@
-# Proyecto del curso de React en Coderhouse
+🇪🇸 **Curso React CoderHouse** 📚
 
-Crear un e-commerce
-utilizando react-create-app, conociendo el uso de archivos.jsx, componentes.
-para los estilos utilicé materia-ui
+Este es el proyecto de tienda realizado como parte del curso de React en CoderHouse. En este proyecto, creamos una tienda en línea utilizando el enfoque de SPA (aplicación de una sola página).
 
-##
+Durante el curso, se cubrieron los siguientes temas:
 
-# Getting Started with Create React App
+- Uso de archivos .jsx
+- Creación y utilización de componentes
+- Uso de promesas, asincronia y MAP
+- Manejo de estados
+- Ciclos de vida de los componentes
+- Uso de APIs
+- Routing y navegación
+- Manejo de eventos
+- Uso de Context
+- Renderizado
+- Introducción a Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Puedes visitar el sitio de la tienda en el siguiente enlace: [Tienda en línea](https://master--react-coderhouse-pasquinelli.netlify.app/)
 
-## Available Scripts
+¡Explora el proyecto y descubre cómo se aplicaron estos conceptos en la creación de la tienda!
 
-In the project directory, you can run:
 
-### `npm start`
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🇬🇧 **React Course at CoderHouse** 📚
 
-### `npm test`
+This is the online store project created as part of the React course at CoderHouse. In this project, we built an online store using the SPA (Single Page Application) approach.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Throughout the course, the following topics were covered:
 
-### `npm run build`
+- Usage of .jsx files
+- Creation and utilization of components
+- Promises, asynchronous operations, and MAP usage
+- State management
+- Component lifecycle
+- API integration
+- Routing and navigation
+- Event handling
+- Context usage
+- Rendering
+- Introduction to Firebase
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can visit the online store site at the following link: [Online Store](https://master--react-coderhouse-pasquinelli.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Explore the project and discover how these concepts were applied in building the online store!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+<h3>Contacto:</h3>
+<a href="https://www.linkedin.com/in/gianni-pasquinelli/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="mailto:giannipasquinelli@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<p>giannipasquinelli@gmail.com</p>
+<hr>
+<h3>Support Me!</h3>
+<p>Necesito mejorar mi notebook, funciona bastante mal</p>
+<a href="https://cafecito.app/gianni03"><img src="https://cdn.cafecito.app/imgs/buttons/button_6.svg" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;"> </a>
+<br>
+<br>
+<p>I'm saving for an upgrade of my notebook</p>
+<a href="https://www.buymeacoffee.com/gianni03" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
